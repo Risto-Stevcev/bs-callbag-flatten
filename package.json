@@ -1,0 +1,24 @@
+{
+  "name": "@ristostevcev/bs-callbag-flatten",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "devDependencies": {
+    "@ristostevcev/bs-callbag-for-each": "^1.0.0",
+    "@ristostevcev/bs-callbag-from-iter": "^1.1.0",
+    "@ristostevcev/bs-callbag-map": "^1.0.0",
+    "bs-platform": "^4.0.3"
+  },
+  "dependencies": {
+    "@ristostevcev/bs-callbag": "^1.1.0",
+    "callbag-flatten": "^1.2.0"
+  }
+}
